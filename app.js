@@ -1,0 +1,3 @@
+let answerArray = []
+funtion calculate {
+   

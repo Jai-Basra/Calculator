@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:27px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    height: 60px;
+    width: 110px;
+    
+}
+
+#equalButton {
+    background-color: #ffa64d;
+    
+
+}
+
+
+#sevenButton {font-size: 24px;
+}
+#eightButton {font-size: 24px;
+}
+#nineButton {font-size: 24px;
+}
+#divisionButton{font-size: 24px;
+    background-color: white;
+}
+#fourButton {font-size: 24px;
+}
+#fiveButton {font-size: 24px;
+}
+#sixButton {font-size: 24px;
+}
+#multiplicationButton {font-size: 24px;
+    background-color: white;
+}
+#oneButton {font-size: 24px;
+}
+#twoButton {font-size: 24px;
+}
+#threeButton {font-size: 24px;
+}
+#subtractionButton {font-size: 24px;
+    background-color: white;
+}
+#decimalButton {font-size: 24px;
+}
+#zeroButton {font-size: 24px;
+}
+#equalButton {font-size: 24px;
+}
+#additionButton {font-size: 24px;
+    background-color: white;
+}
