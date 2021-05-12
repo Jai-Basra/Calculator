@@ -1,7 +1,7 @@
 const onButtonClick = (e) => {
      const input = document.getElementById('NumInput');
      let value = e.innerHTML.toString();
-     if (value === '*' || value === '' || value === '-' || value === '+') {
+     if (value === '*' || value === '/' || value === '-' || value === '+') {
           value = ' ' + value + ' ';
      } else if (value === 'π') {
           value = '3.14159265359'
