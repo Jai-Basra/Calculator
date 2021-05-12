@@ -1,3 +1,0 @@
-let answerArray = []
-funtion calculate {
-   
