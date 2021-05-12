@@ -5,37 +5,31 @@
   <link rel="stylesheet" href='style.css' >
 </head>
 <body>
-      <header>
-        <h1>Calculator</h1>
-        <h6>Created By Ibrahim and Jai</h6>
-      </header>
-      <form>
-        <input id="NumInput" style="width: 454px; height: 80px; font-size: 50px; " size="100"  > 
-      </form> 
-      <button id = 'sevenButton' onclick="onButtonClick(this)">7</button>
-      <button id = 'eightButton' onclick="onButtonClick(this)">8</button>
-      <button id = 'nineButton' onclick="onButtonClick(this)">9</button>
-      <button id = 'divisionButton' onclick="onButtonClick(this)">/</button> <br/>
-      <button id = 'fourButton' onclick="onButtonClick(this)">4</button>
-      <button id = 'fiveButton' onclick="onButtonClick(this)">5</button>
-      <button id = 'sixButton' onclick="onButtonClick(this)">6</button>
-      <button id = 'multiplicationButton' onclick="onButtonClick(this)">*</button> <br/>
-      <button id = 'oneButton' onclick="onButtonClick(this)">1</button>
-      <button id = 'twoButton' onclick="onButtonClick(this)">2</button>
-      <button id = 'threeButton' onclick="onButtonClick(this)">3</button>
-      <button id = 'subtractionButton' onclick="onButtonClick(this)">-</button> <br/>
-      <button id = 'decimalButton' onclick="onButtonClick(this)">.</button>
-      <button id = 'zeroButton' onclick="onButtonClick(this)">0</button>
-      <button id = 'equalButton' onclick="calculate()">=</button>
-      <button id = 'additionButton' onclick="onButtonClick(this)">+</button>
-      <script src='./app.js'></script>
-  </body>
-</html>
+    <header><h1>Calculator</h1></header>
+    <header><h6>Created By Ibrahim and Jai</h6></header>
+</body>
+<form>
+  <input id="NumInput" style="width: 454px; height: 80px; font-size: 50px; " size="100"> 
+</form> 
+<button id = 'PiButton' onclick='onButtonClick(this)'>π</button>
+<button id = 'PercentButton'>%</button>
+<button id = 'MayankButton' onclick='onMayank()'>Mayank</button>
+<button id = 'ClearButton' onclick='onClear()'>AC</button><br/>
+<button id = 'sevenButton' onclick='onButtonClick(this)'>7</button>
+<button id = 'eightButton' onclick='onButtonClick(this)'>8</button>
+<button id = 'nineButton' onclick='onButtonClick(this)'>9</button>
+<button id = 'divisionButton' onclick='onButtonClick(this)'>/</button> <br/>
+<button id = 'fourButton' onclick='onButtonClick(this)'>4</button>
+<button id = 'fiveButton' onclick='onButtonClick(this)'>5</button>
+<button id = 'sixButton' onclick='onButtonClick(this)'>6</button>
+<button id = 'multiplicationButton' onclick='onButtonClick(this)'>*</button> <br/>
+<button id = 'oneButton' onclick='onButtonClick(this)'>1</button>
+<button id = 'twoButton' onclick='onButtonClick(this)'>2</button>
+<button id = 'threeButton' onclick='onButtonClick(this)'>3</button>
+<button id = 'subtractionButton' onclick='onButtonClick(this)'>-</button> <br/>
+<button id = 'decimalButton' onclick='onButtonClick(this)'>.</button>
+<button id = 'zeroButton' onclick='onButtonClick(this)'>0</button>
+<button id = 'equalButton' onclick='calculate()'>=</button>
+<button id = 'additionButton' onclick='onButtonClick(this)'>+</button>
 
-
-
-
-
-
-
-
+<script src="./app.js"></script>
