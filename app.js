@@ -9,7 +9,7 @@ const onButtonClick = (e) => {
      input.value += value;
 }
 
-const calculate = () => {
+const calculate = (e) => {
      const input = document.getElementById('NumInput');
      const value = eval(input.value);
      input.value = value;

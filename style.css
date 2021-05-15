@@ -46,35 +46,35 @@ button {
 
 #divisionButton{
     font-size: 24px;
-    background-color: white;
+    background-color: magenta;
     padding-inline: 10px;}
 #additionButton {
     font-size: 24px;
-    background-color: white;}
+    background-color: navy;}
 #multiplicationButton {
     font-size: 24px;
-    background-color: white;}
+    background-color: sandybrown;}
 #subtractionButton {
     font-size: 24px;
-    background-color: white;
+    background-color: saddlebrown;
     padding: 10px;}
 #equalButton {
     font-size: 24px;
-    background-color: #ffa64d;
+    background-color: #orangered;
     padding-bottom: 10px;}
 #ClearButton {
     font-size: 24px;
-    background-color: white;
+    background-color: orange;
     padding-bottom: 10px;}
 #MayankButton {
     font-size: 24px;
-    background-color: white;
+    background-color: greenyellow;
     padding-bottom: 10px;}  
 #PercentButton {
     font-size: 24px;
-    background-color: white;
+    background-color: green;
     padding-bottom: 10px;}      
 #PiButton {
     font-size: 24px;
-    background-color: white;
+    background-color: black;
     padding-bottom: 10px;}  
