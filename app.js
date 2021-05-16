@@ -1,3 +1,5 @@
+console.log('Mayank Ahuja the Second')
+
 const onButtonClick = (e) => {
      const input = document.getElementById('NumInput');
      let value = e.innerHTML.toString();
@@ -9,7 +11,7 @@ const onButtonClick = (e) => {
      input.value += value;
 }
 
-const calculate = (e) => {
+const calculate = () => {
      const input = document.getElementById('NumInput');
      const value = eval(input.value);
      input.value = value;
